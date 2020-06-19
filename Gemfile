@@ -12,6 +12,6 @@ gem 'sass'
 gem 'pg'
 gem 'dm-postgres-adapter'
 gem 'data_mapper'
-
+gem 'irb'
 
 # gem "rails"
