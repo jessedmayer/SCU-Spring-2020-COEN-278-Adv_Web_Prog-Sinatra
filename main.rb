@@ -2,10 +2,13 @@ require 'sinatra'
 require 'data_mapper' #includes dm-core and dm-migrations
 enable :sessions
 
-#DataMapper.setup(:default,"sqlite3://#{Dir.pwd}/gamblers.db") #default is connection name
-#DataMapper.setup(:default,"postgres://#{Dir.pwd}/gamblers_postgres.db")
-#DataMapper.setup(:default, ENV['DATABASE_URL'])
-DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://amoyijklbtdlpc:230e0dd61dc86549671065095edbbcee7cf0ca9fb99d922f775862800423cc36@ec2-18-214-211-47.compute-1.amazonaws.com:5432/dd97j6dnbg7k9p')
+configure :development do
+  DataMapper.setup(:default,"sqlite3://#{Dir.pwd}/gamblers.db")
+end
+
+configure :production do
+  DataMapper.setup(:default, ENV['DATABASE_URL'])
+end
 
 #creates model (table will be called in plural)
 class User_data
