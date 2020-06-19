@@ -19,11 +19,6 @@ end
 DataMapper.finalize
 DataMapper.auto_upgrade!
 
-
-get '/' do
-  erb :home.html
-end
-
 get '/login' do
   erb :login
 end
