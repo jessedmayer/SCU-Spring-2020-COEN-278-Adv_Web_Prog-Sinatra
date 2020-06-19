@@ -62,6 +62,7 @@ GEM
     multi_json (1.14.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    pg (1.2.3-x64-mingw32)
     public_suffix (4.0.5)
     rack (2.2.2)
     rack-protection (2.0.8.1)
@@ -72,7 +73,6 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
-    sqlite3 (1.4.2)
     stringex (1.5.1)
     thin (1.7.2)
       daemons (~> 1.0, >= 1.0.9)
@@ -88,9 +88,9 @@ DEPENDENCIES
   data_mapper
   dm-sqlite-adapter
   eventmachine
+  pg
   rack
   sinatra
-  sqlite3
   thin
 
 BUNDLED WITH

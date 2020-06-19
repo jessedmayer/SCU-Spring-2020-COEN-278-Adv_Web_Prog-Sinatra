@@ -36,12 +36,12 @@
     <orderEntry type="library" scope="PROVIDED" name="json_pure (v1.8.6, ruby-2.6.6-p146) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.14.1, ruby-2.6.6-p146) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mustermann (v1.1.1, ruby-2.6.6-p146) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v1.2.3, ruby-2.6.6-p146) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v4.0.5, ruby-2.6.6-p146) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.2, ruby-2.6.6-p146) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-protection (v2.0.8.1, ruby-2.6.6-p146) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby2_keywords (v0.0.2, ruby-2.6.6-p146) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sinatra (v2.0.8.1, ruby-2.6.6-p146) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.4.2, ruby-2.6.6-p146) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stringex (v1.5.1, ruby-2.6.6-p146) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thin (v1.7.2, ruby-2.6.6-p146) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.10, ruby-2.6.6-p146) [gem]" level="application" />

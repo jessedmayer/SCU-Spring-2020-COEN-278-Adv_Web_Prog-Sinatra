@@ -2,7 +2,8 @@ require 'sinatra'
 require 'data_mapper' #includes dm-core and dm-migrations
 enable :sessions
 
-DataMapper.setup(:default,"sqlite3://#{Dir.pwd}/gamblers.db") #default is connection name
+#DataMapper.setup(:default,"sqlite3://#{Dir.pwd}/gamblers.db") #default is connection name
+DataMapper.setup(:default,"postgres://#{Dir.pwd}/gamblers_postgres.db")
 
 #creates model (table will be called in plural)
 class User_data
