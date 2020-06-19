@@ -1,0 +1,15 @@
+<p>place your bet on dice number (1 to 6)</p>
+<form action="/betting" method='post'>
+  bet money <input type='text' name='stake'></input><br>
+  on <input type='text' name='number'></input>
+  <br>
+  <input type='submit' name='bet'></input>
+</form>
+<p>Session Score:</p>
+  <p>Total Win: <%=session[:session_win]%>    Total Loss: <%=session[:session_loss]%>   Total Profit: <%=session[:session_profit]%></p>
+<p>Account Score:</p>
+  <p>Total Win: <%=session[:total_win]%>    Total Loss: <%=session[:total_loss]%>   Total Profit: <%=session[:total_profit]%></p>
+
+<ul>
+  <a href='/logout'>Logout</a>
+</ul>

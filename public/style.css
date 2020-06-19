@@ -1,0 +1,12 @@
+html {background-color: #ccc;}
+body {
+    width:700px;
+    height:900px;
+    background-color:#dddcd9;
+    margin:2em auto 2em;
+    padding:25px;
+    position:relative;
+}
+h1 {
+    color:#a09b89
+}
