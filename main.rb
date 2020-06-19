@@ -4,7 +4,7 @@ enable :sessions
 
 #DataMapper.setup(:default,"sqlite3://#{Dir.pwd}/gamblers.db") #default is connection name
 #DataMapper.setup(:default,"postgres://#{Dir.pwd}/gamblers_postgres.db")
-DataMapper.setup(:default,"postgres://amoyijklbtdlpc:230e0dd61dc86549671065095edbbcee7cf0ca9fb99d922f775862800423cc36@ec2-18-214-211-47.compute-1.amazonaws.com:5432/dd97j6dnbg7k9p")
+DataMapper.setup('https://sinatra-betting-app.herokuapp.com/',"postgres://amoyijklbtdlpc:230e0dd61dc86549671065095edbbcee7cf0ca9fb99d922f775862800423cc36@ec2-18-214-211-47.compute-1.amazonaws.com:5432/dd97j6dnbg7k9p")
 
 #creates model (table will be called in plural)
 class User_data
