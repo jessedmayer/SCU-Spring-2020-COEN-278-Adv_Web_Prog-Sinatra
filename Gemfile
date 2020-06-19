@@ -7,12 +7,10 @@ gem 'sinatra'
 gem 'thin'
 gem 'rack'
 gem 'eventmachine'
-#gem 'sqlite3'
-gem 'do_postgres'
-gem 'dm-postgres-adapter'
+
 gem 'pg'
 
 gem 'data_mapper'
-#gem 'dm-sqlite-adapter'
+
 
 # gem "rails"
