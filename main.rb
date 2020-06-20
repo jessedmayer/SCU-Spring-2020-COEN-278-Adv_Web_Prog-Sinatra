@@ -24,7 +24,7 @@ DataMapper.finalize
 DataMapper.auto_upgrade!
 
 
-
+User_data.create(User: 'admin', Password: 'admin', total_win: 0, total_loss: 0, total_profit: 0)
 #@init_user = User_data.get('admin')
 #unless @init_user.User == params[:Username] && @user.Password == params[:Password]
 #@init_user = User_data.create(User: 'admin', Password: 'admin', total_win: 0, total_loss: 0, total_profit: 0)
